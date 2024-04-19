@@ -1,7 +1,10 @@
 # SC1015-Mini-Project
 
 ## Problem: 
-Can we make use of machine learning to predict what instrument is being played from an audio file? We explore the musicnet dataset from Kaggle to train our various machine learning methods.
+Can we make use of machine learning to predict what instrument is being played from an audio file? We explore the MusicNet dataset from Kaggle to train our various machine learning methods.
+
+## Dataset:
+The dataset was sourced from https://www.kaggle.com/datasets/imsparsh/musicnet-dataset
 
 ## Data cleaning: 
 To clean up the dataset, we will implement a cleaning function on the audio files from the dataset to remove any possible noise from the background.
