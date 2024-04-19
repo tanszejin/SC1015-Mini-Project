@@ -7,13 +7,13 @@ Can we make use of machine learning to predict what instrument is being played f
 To clean up the dataset, we will implement a cleaning function on the audio files from the dataset to remove any possible noise from the background.
 
 ## Exploratory analysis and data visualisation:
-We will plot the data in heatmaps, box plots, violin plots, scatter plots, multi-variate scatter plots and more.
+We will explore the daset's metadata and plot them in boxplots, histograms and violin plots. We will then use audio analysis techniques to explore the audio data, such as waveforms, spectrograms, MFCC heatmaps, scatterplots and more.
 
 ## Pattern recognition: 
 We will then find the correlation coefficients of each pair of attributes and plot them in a correlation matrix.
 
 ## Machine learning: 
-We will use the dataset to train a neural network, classification tree and random forest, then analyse the  prediction accuracies.
+We will use the dataset to train a neural network, classification tree and random forest, then analyse the prediction accuracies.
 
 ## Intelligent decision: 
 Finally, with the results obtained, we will determine which machine learning method is the most effective for this task
