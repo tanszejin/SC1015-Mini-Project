@@ -75,3 +75,5 @@ Using Hugging Face's transformers library, Wav2Vec2 is a popular tool for automa
 # References
 Ghantiwala, A. (2022, April 26). Visualizing Audio Data and Performing Feature Extraction. Medium. https://towardsdatascience.com/visualizing-audio-data-and-performing-feature-extraction-e1a489046000  
 SriVinayA. (2023, November 2). 🎙️ Exploratory Data Analysis and Processing of an Audio Dataset 🎵. Medium. https://medium.com/@SriVinayA/%EF%B8%8F-exploratory-data-analysis-and-processing-of-an-audio-dataset-4ff47a0e815a  
+Gunay, D. (2023, September 12). Random Forest. Medium. 
+https://medium.com/@denizgunay/random-forest-af5bde5d7e1e#:~:text=Random%20Forest%20is%20an%20ensemble%20machine%20learning%20algorithm%20that%20combines,overfitting%20and%20improve%20predictive%20performance.
