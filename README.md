@@ -58,3 +58,8 @@ Using Hugging Face's transformers library, Wav2Vec2 is a popular tool for automa
 **Lee Yi Ming, Bennett:** ideation, random forest analysis, slides, presentation  
 **Han Xin Yi, Heidi:** ideation, data preprocessing, wav2vec2, slides, presentation  
 **Tan Sze Jin:** ideation, exploratory data analysis, classification tree, slides, presentation  
+
+---
+# References
+Ghantiwala, A. (2022, April 26). Visualizing Audio Data and Performing Feature Extraction. Medium. https://towardsdatascience.com/visualizing-audio-data-and-performing-feature-extraction-e1a489046000  
+SriVinayA. (2023, November 2). 🎙️ Exploratory Data Analysis and Processing of an Audio Dataset 🎵. Medium. https://medium.com/@SriVinayA/%EF%B8%8F-exploratory-data-analysis-and-processing-of-an-audio-dataset-4ff47a0e815a  
