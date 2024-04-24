@@ -52,3 +52,9 @@ Random Forest is a versatile and powerful ensemble machine learning method that 
 ## Wav2Vec2:
 Using Hugging Face's transformers library, Wav2Vec2 is a popular tool for automatic speech recognition (ASR). However, for our project, we will be training it to classify classical instruments instead.<br>
 >Validation Accuracy: 99.85%
+
+---
+# Contributions
+**Lee Yi Ming, Bennett:** ideation, random forest analysis, slides, presentation  
+**Han Xin Yi, Heidi:** ideation, data preprocessing, wav2vec2, slides, presentation  
+**Tan Sze Jin:** ideation, exploratory data analysis, classification tree, slides, presentation  
