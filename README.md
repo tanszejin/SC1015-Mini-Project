@@ -9,7 +9,11 @@
 <br>
 
 >If you experience difficulties in download the model file, please download it using this link:
->[model](https://entuedu-my.sharepoint.com/:u:/g/personal/hhan012_e_ntu_edu_sg/EW31jJzivGdHs0ZwauhULU4BROMxnMiSmRf2dEUUgd-YYA?e=nw5zxh)
+>[model](https://entuedu-my.sharepoint.com/:u:/g/personal/hhan012_e_ntu_edu_sg/EW31jJzivGdHs0ZwauhULU4BROMxnMiSmRf2dEUUgd-YYA?e=nw5zxh)<br>
+><br>
+>This is how your directory should look like:<br>
+![image](https://github.com/tanszejin/SC1015-Mini-Project/assets/127087818/131efee9-d206-4c11-a1ee-e2517a51255c)
+
 
 <br>
 
