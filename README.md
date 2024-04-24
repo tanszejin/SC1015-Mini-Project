@@ -1,16 +1,22 @@
 # SC1015-Mini-Project
 
+>## !Important!:
+>As the dataset on [Kaggle](https://www.kaggle.com/datasets/imsparsh/musicnet-dataset) is very large in nature, please download the subset of the dataset used.<br>
+>[Train Data](https://entuedu-my.sharepoint.com/:f:/g/personal/hhan012_e_ntu_edu_sg/Em9MKOz90vJKskR3ACUK_aUBIc4j5DbqKClyHc5sqMU17g?e=6P6FRu)<br>
+>[Test Data](https://entuedu-my.sharepoint.com/:f:/g/personal/hhan012_e_ntu_edu_sg/EkAdQcu1KpJLtR8PBBXO5ZsBKQkZPSeYMuLhfawrca25CQ?e=p43DB3)<br>
+>>This dataset has completed the pre-processing stage. Users will not have to run **preparation.ipynb** again!
+
 ## Problem: 
 Can we make use of machine learning to predict what instrument is being played from an audio file? We explore the MusicNet dataset from Kaggle to train our various machine learning methods.
 
 ## Dataset:
 The dataset was sourced from https://www.kaggle.com/datasets/imsparsh/musicnet-dataset
 
-## Data cleaning: 
-To clean up the dataset, we will implement a cleaning function on the audio files from the dataset to remove any possible noise from the background.
+## Pre-Processing: 
+Pre-processing is done by selecting solo music files and segmenting them into 1-second audio.
 
 ## Exploratory analysis and data visualisation:
-We will explore the daset's metadata and plot them in boxplots, histograms and violin plots. We will then use audio analysis techniques to explore the audio data, such as waveforms, spectrograms, MFCC heatmaps, scatterplots and more.
+We will explore the dataset's metadata and plot them in boxplots, histograms and violin plots. We will then use audio analysis techniques to explore the audio data, such as waveforms, spectrograms, MFCC heatmaps, scatterplots and more.
 
 ## Pattern recognition: 
 We will then find the correlation coefficients of each pair of attributes and plot them in a correlation matrix.
@@ -23,7 +29,11 @@ Finally, with the results obtained, we will determine which machine learning met
 
 ## Random Forest: 
 Random Forest is a versatile and powerful ensemble machine learning method that operates by constructing multiple decision trees during training and outputs the consensus of these trees for prediction tasks. Primarily used for classification and regression, Random Forest improves on the performance and accuracy of single decision trees by building a forest of them, each trained on random subsets of the data and features. The intuition behind Random Forest is to benefit from the collective decision-making of multiple models, mitigating the risk of errors associated with any single tree, particularly overfitting. When predicting, in classification tasks, each tree votes for a class, and the class receiving the majority of votes is chosen as the final output. In regression, it takes the average of the outputs across all trees. This averaging helps to reduce variance and improve the robustness of the model. When using random forest for our musical instrument classification, it achieved a high accuracy across all 4 instruments as shown below: <br />
-Cello accuracy rate = 99.2%<br />
-Flute accuracy rate = 89.6%<br />
-Piano accuracy rate = 99.1%<br />
-Violen accuracy rate = 100%
+>Cello accuracy rate = 99.2%<br />
+>Flute accuracy rate = 89.6%<br />
+>Piano accuracy rate = 99.1%<br />
+>Violen accuracy rate = 100%
+
+## Wav2Vec2:
+Using Hugging Face's transformers library, Wav2Vec2 is a popular tool for automatic speech recognition (ASR). However, for our project, we will be training it to classify classical instruments instead.<br>
+>Validation Accuracy: 99.85%
