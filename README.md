@@ -62,7 +62,7 @@ Using Hugging Face's transformers library, Wav2Vec2 is a popular tool for automa
 
 ---
 # Contributions
-**Lee Yi Ming, Bennett:** ideation, random forest analysis, slides, presentation  
+**Lee Yi Ming, Bennett:** ideation, random forest analysis, slides, presentation, video editing  
 **Han Xin Yi, Heidi:** ideation, data preprocessing, wav2vec2, slides, presentation  
 **Tan Sze Jin:** ideation, exploratory data analysis, classification tree, slides, presentation  
 
