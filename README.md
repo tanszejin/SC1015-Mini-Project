@@ -9,6 +9,9 @@
 >If you experience difficulties in download the model file, please download it using this link:
 >[model](https://entuedu-my.sharepoint.com/:u:/g/personal/hhan012_e_ntu_edu_sg/EW31jJzivGdHs0ZwauhULU4BROMxnMiSmRf2dEUUgd-YYA?e=nw5zxh)
 
+>Install necessary libraries using **requirements.txt**
+>>pip install -r requirements.txt
+
 ---
 # Outline
 
