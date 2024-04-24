@@ -1,10 +1,13 @@
 # SC1015-Mini-Project
 
->## !Important!:
+## !Important!:
 >As the dataset on [Kaggle](https://www.kaggle.com/datasets/imsparsh/musicnet-dataset) is very large in nature, please download the subset of the dataset used.<br>
+>This dataset has completed the pre-processing stage. Users will not have to run **preparation.ipynb** again!<br>
 >[Train Data](https://entuedu-my.sharepoint.com/:f:/g/personal/hhan012_e_ntu_edu_sg/Em9MKOz90vJKskR3ACUK_aUBIc4j5DbqKClyHc5sqMU17g?e=6P6FRu)<br>
 >[Test Data](https://entuedu-my.sharepoint.com/:f:/g/personal/hhan012_e_ntu_edu_sg/EkAdQcu1KpJLtR8PBBXO5ZsBKQkZPSeYMuLhfawrca25CQ?e=p43DB3)<br>
->>This dataset has completed the pre-processing stage. Users will not have to run **preparation.ipynb** again!
+
+>If you experience difficulties in download the model file, please download it using this link:
+>[model](https://entuedu-my.sharepoint.com/:u:/g/personal/hhan012_e_ntu_edu_sg/EW31jJzivGdHs0ZwauhULU4BROMxnMiSmRf2dEUUgd-YYA?e=nw5zxh)
 
 ## Problem: 
 Can we make use of machine learning to predict what instrument is being played from an audio file? We explore the MusicNet dataset from Kaggle to train our various machine learning methods.
