@@ -9,26 +9,38 @@
 >If you experience difficulties in download the model file, please download it using this link:
 >[model](https://entuedu-my.sharepoint.com/:u:/g/personal/hhan012_e_ntu_edu_sg/EW31jJzivGdHs0ZwauhULU4BROMxnMiSmRf2dEUUgd-YYA?e=nw5zxh)
 
-## Problem: 
+---
+# Outline
+
+### Problem: 
 Can we make use of machine learning to predict what instrument is being played from an audio file? We explore the MusicNet dataset from Kaggle to train our various machine learning methods.
 
-## Dataset:
+### Dataset:
 The dataset was sourced from https://www.kaggle.com/datasets/imsparsh/musicnet-dataset
 
-## Pre-Processing: 
+### Pre-Processing: 
 Pre-processing is done by selecting solo music files and segmenting them into 1-second audio.
 
-## Exploratory analysis and data visualisation:
+### Exploratory analysis and data visualisation:
 We will explore the dataset's metadata and plot them in boxplots, histograms and violin plots. We will then use audio analysis techniques to explore the audio data, such as waveforms, spectrograms, MFCC heatmaps, scatterplots and more.
 
-## Pattern recognition: 
+### Pattern recognition: 
 We will then find the correlation coefficients of each pair of attributes and plot them in a correlation matrix.
 
-## Machine learning: 
+### Machine learning: 
 We will use the dataset to train a neural network, classification tree and random forest, then analyse the prediction accuracies.
 
-## Intelligent decision: 
+### Intelligent decision: 
 Finally, with the results obtained, we will determine which machine learning method is the most effective for this task
+
+---
+# Results
+
+## Classification Tree:
+As the identification of the audio samples' instrument is a classic classification problem, we used a classification tree, also known as a decision tree. We extracted four features from the audio dataset which we have found to be useful for classification during the EDA, and trained the classification tree using these features.   
+> Classification accuracy for tree of max depth 2 = 83.97%  
+> Classification accuracy for tree of max depth 3 = 85.81%  
+> Classification accuracy for tree of max depth 4 = 94.07%  
 
 ## Random Forest: 
 Random Forest is a versatile and powerful ensemble machine learning method that operates by constructing multiple decision trees during training and outputs the consensus of these trees for prediction tasks. Primarily used for classification and regression, Random Forest improves on the performance and accuracy of single decision trees by building a forest of them, each trained on random subsets of the data and features. The intuition behind Random Forest is to benefit from the collective decision-making of multiple models, mitigating the risk of errors associated with any single tree, particularly overfitting. When predicting, in classification tasks, each tree votes for a class, and the class receiving the majority of votes is chosen as the final output. In regression, it takes the average of the outputs across all trees. This averaging helps to reduce variance and improve the robustness of the model. When using random forest for our musical instrument classification, it achieved a high accuracy across all 4 instruments as shown below: <br />
