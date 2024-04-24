@@ -58,7 +58,6 @@ As the identification of the audio samples' instrument is a classic classificati
 ## Random Forest: 
 Random Forest is a versatile and powerful ensemble machine learning method that operates by constructing multiple decision trees during training and outputs the consensus of these trees for prediction tasks. Primarily used for classification and regression, Random Forest improves on the performance and accuracy of single decision trees by building a forest of them, each trained on random subsets of the data and features. The intuition behind Random Forest is to benefit from the collective decision-making of multiple models, mitigating the risk of errors associated with any single tree, particularly overfitting. When predicting, in classification tasks, each tree votes for a class, and the class receiving the majority of votes is chosen as the final output. In regression, it takes the average of the outputs across all trees. This averaging helps to reduce variance and improve the robustness of the model. When using random forest for our musical instrument classification, it achieved a high accuracy across all 4 instruments as shown below: <br />
 >Cello accuracy rate = 99.2%<br />
->Flute accuracy rate = 89.6%<br />
 >Piano accuracy rate = 99.1%<br />
 >Violen accuracy rate = 100%
 
